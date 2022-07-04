@@ -1,0 +1,15 @@
+﻿<% if (theme.changyan && theme.changyan_appid && theme.changyan_appkey){ %>
+    <%- partial('post/changyan') %>
+<% } %>
+
+<% if (theme.valine.enable && theme.valine.appid && theme.valine.appkey){ %>
+    <%- partial('post/valine', {
+      key: post.slug,
+      title: post.title,
+      url: config.url+url_for(post.path)
+    }) %>
+<% } %>
+
+<% if (config.disqus_shortname) { %>
+    <%- partial('post/disqus') %>
+<% } %>

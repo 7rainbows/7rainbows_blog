@@ -1,0 +1,96 @@
+﻿# Header
+menu:
+  主页: /
+  所有文章: /archives
+  # 随笔: /tags/随笔
+
+# SubNav
+subnav:
+  github: "https://github.com/7rainbows"
+  # zhihu: "#"
+  mail: "tengyangcc@163.com"
+  qq: "http://wpa.qq.com/msgrd?v=3&amp;uin=1415771333&amp;site=qq&amp;menu=yes"
+  weibo: "https://weibo.com/5314886691/profile?rightmod=1&wvr=6&mod=personinfo"
+  # rss: "#"
+  #douban: "#"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# Content
+# excerpt_link: 阅读全文
+excerpt_link: more
+fancybox: true
+mathjax: true
+
+# 是否开启动画效果
+animate: true
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# 百度统计、谷歌统计
+baidu_tongji: true
+# google_analytics: true
+
+
+favicon: http://rehluj8i0.hb-bkt.clouddn.com/%E5%9B%BE%E7%89%87/7rainbows/%E5%A4%B4%E5%83%8F.jpg
+
+
+#你的头像url
+avatar: http://rehluj8i0.hb-bkt.clouddn.com/%E5%9B%BE%E7%89%87/7rainbows/%E5%A4%B4%E5%83%8F.jpg
+
+
+#是否开启分享
+share: false
+
+
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+# duoshuo: your duoshuo id
+
+#畅言评论
+changyan: false
+changyan_appid: cyun3lalj
+changyan_appkey: 4b366e446227cae74d459021c1fcfeae
+
+#valine评论
+valine:
+  enable: true
+  appid: O4LSonXhAwpmklypJ9B8e7uy-gzGzoHsz
+  appkey: RfIhtH91aAwSkPlxvWiY7ocE
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: Just go go # comment box placeholder
+  avatar: wavatar # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  visitor: false # 阅读量统计
+  pageSize: 10 # pagination size
+
+#是否开启云标签
+tagcloud: true
+
+#是否开启文章阅读量
+leancloud_visitors:
+  enable: true
+  app_id: O4LSonXhAwpmklypJ9B8e7uy-gzGzoHsz
+  app_key: RfIhtH91aAwSkPlxvWiY7ocE
+
+
+#是否开启友情链接
+#不开启——
+friends: false
+#开启——
+#friends:
+#smackdown: https://github.com/smackgg/hexo-theme-smackdown
+#是否开启“关于我”。
+# 不开启——
+aboutme: false
+#开启——
+# aboutme:
+
+swift_search:
+  enable: true
